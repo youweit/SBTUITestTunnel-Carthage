@@ -1,0 +1,76 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "d91dd9cfe47b0881763a137acf00ac3d6b1f1b21",
+  "iOS" : [
+    {
+      "hash" : "a05d01c8fc41b4e2b778772b948569df93ff58e6754d2b318e64b0011c37ce0c",
+      "name" : "SBTUITestTunnelClient",
+      "container" : "SBTUITestTunnelClient.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "dbc1702a669b828ee8b31fcbae9263a52bcb5567012eadf5ca7a604d0d294387",
+      "name" : "SBTUITestTunnelClient",
+      "container" : "SBTUITestTunnelClient.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "b2c622c50118f7f57f7d8c86dde553afcb8456610db3f6a3b2ec44c91a285b5d",
+      "name" : "SBTUITestTunnelCommon",
+      "container" : "SBTUITestTunnelCommon.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "6d33b4dfdd050e89ab59b2c5bf186b048d005ee5bd34cf8f24529fbc90d804d0",
+      "name" : "SBTUITestTunnelCommon",
+      "container" : "SBTUITestTunnelCommon.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "cddc5dc4e0a3f4b95ea7570e0a81da129ee29f2e25844443aeae82438daeb5d1",
+      "name" : "SBTUITestTunnelCommonNoARC",
+      "container" : "SBTUITestTunnelCommonNoARC.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "a80ed2e12c3cb5920f7d5e8e752b6cb49df1d9d438cb5a5cbd28974c394b5c56",
+      "name" : "SBTUITestTunnelCommonNoARC",
+      "container" : "SBTUITestTunnelCommonNoARC.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "a0d4689968b34e7fe4af1519f9d28dfbf864c86c867b144dbed331ed9aee77d0",
+      "name" : "SBTUITestTunnelCommonSwift",
+      "container" : "SBTUITestTunnelCommonSwift.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)",
+      "hash" : "3b6d8839b98c9f27b09fb045a88efccc01a01a2b1b8175884586037adc13e76b",
+      "name" : "SBTUITestTunnelCommonSwift",
+      "container" : "SBTUITestTunnelCommonSwift.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "a6cf45facdbcb040b11c965dcabbf852dfba6d7ab1dee4e5d5830f39d369a5bf",
+      "name" : "SBTUITestTunnelServer",
+      "container" : "SBTUITestTunnelServer.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "0e2167287583b022d9bdf45d3f769a0239d48292c4bd6bd1679833c893f96299",
+      "name" : "SBTUITestTunnelServer",
+      "container" : "SBTUITestTunnelServer.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}

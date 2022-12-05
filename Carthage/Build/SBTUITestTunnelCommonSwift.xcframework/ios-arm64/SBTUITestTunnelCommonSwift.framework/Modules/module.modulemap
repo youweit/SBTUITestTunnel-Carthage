@@ -1,0 +1,4 @@
+framework module SBTUITestTunnelCommonSwift {
+  header "SBTUITestTunnelCommonSwift-Swift.h"
+  requires objc
+}
