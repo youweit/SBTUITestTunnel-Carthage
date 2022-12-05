@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/SBTUITestTunnelCommonNoARC.framework/Info.plist</key>
-		<data>
-		sesIW6fM+vVh754ntb5vwngpb7c=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommonNoARC.framework/SBTUITestTunnelCommonNoARC</key>
-		<data>
-		4izroqsGE7o/dedk45qNupGLILo=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommonNoARC.framework/_CodeSignature/CodeResources</key>
-		<data>
-		TWcrQPRvZPef8QGtfXGzOShG6rc=
-		</data>
 		<key>Headers/DTXAddressInfo.h</key>
 		<data>
 		p3TS8GV+/KJ/RjP9KYl3HG9YsLs=
@@ -163,27 +151,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/SBTUITestTunnelCommonNoARC.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZDSmc4xogQPmQYQKSKPZPnwcGyLNSyk+ztSX50QKtRg=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommonNoARC.framework/SBTUITestTunnelCommonNoARC</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VmK5ecNLnRO0IwYhyoiQbOS7w4VqFuHvH1Gd3rrzXvM=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommonNoARC.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qWBj7F6kwFHa/Rsb/PjxYJW4QF8zkGVsb1zFNYxrWWc=
-			</data>
-		</dict>
 		<key>Headers/DTXAddressInfo.h</key>
 		<dict>
 			<key>hash2</key>

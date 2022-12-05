@@ -4,80 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/Info.plist</key>
-		<data>
-		sesIW6fM+vVh754ntb5vwngpb7c=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/SBTUITestTunnelCommonNoARC</key>
-		<data>
-		2+bxig+c+9S/aTgz6QrN5vLoAos=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/_CodeSignature/CodeResources</key>
-		<data>
-		TWcrQPRvZPef8QGtfXGzOShG6rc=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Info.plist</key>
-		<data>
-		sUXnEG28m+GoCyoq0ERyF0GHBv4=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/SBTUITestTunnelCommon</key>
-		<data>
-		cAvSdh9eLSYD3qM3NVMxv9EIe8E=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/_CodeSignature/CodeResources</key>
-		<data>
-		Mix9Ogc0G2f4o4xCwkLsVx1z6d8=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		4myN6eBJ9HibcEG53Mq3vcUck58=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZDSmc4xogQPmQYQKSKPZPnwcGyLNSyk+ztSX50QKtRg=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/SBTUITestTunnelCommonNoARC</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3oCCFeQ5dLwCeXFFUds2wZAMgPgj3Uwc4mjX+KHNXhI=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qWBj7F6kwFHa/Rsb/PjxYJW4QF8zkGVsb1zFNYxrWWc=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wErHvDIs7ImmCQWAj8JsqL17iooUBxT/edgpzCMC3cw=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/SBTUITestTunnelCommon</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7jTR0Nu5HfFRYhZ7BrG6qHZEVesephMGNwvaFTZLT2w=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2KxVZnOv8zZCv7XwRERY8M7FNNzz9OD/eUVXAKQFjQc=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>

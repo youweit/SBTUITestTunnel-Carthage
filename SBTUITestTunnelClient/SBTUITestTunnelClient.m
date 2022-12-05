@@ -139,7 +139,7 @@ static NSTimeInterval SBTUITunneledApplicationDefaultTimeout = 30.0;
         useIPC = NO;
     #endif
     
-    if (useIPC) {
+    if (NO) {
         NSString *serviceIdentifier = [NSUUID UUID].UUIDString;
         self.ipcConnection = [[DTXIPCConnection alloc] initWithServiceName:[NSString stringWithFormat:@"com.subito.sbtuitesttunnel.ipc.%@", serviceIdentifier]];
         self.ipcConnection.remoteObjectInterface = [DTXIPCInterface interfaceWithProtocol:@protocol(SBTIPCTunnel)];

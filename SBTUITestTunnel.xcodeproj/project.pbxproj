@@ -66,10 +66,10 @@
 		FB963781293E65A500765F57 /* SBTUITestTunnelServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FB963769293E65A400765F57 /* SBTUITestTunnelServer.m */; };
 		FB963782293E65A500765F57 /* UIScrollView+SBTUITestTunnel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB96376A293E65A400765F57 /* UIScrollView+SBTUITestTunnel.m */; };
 		FB963783293E65A500765F57 /* UIViewController+SBTUITestTunnel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB96376B293E65A400765F57 /* UIViewController+SBTUITestTunnel.m */; };
-		FB963784293E65A500765F57 /* SBTUITestTunnelServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96376D293E65A400765F57 /* SBTUITestTunnelServer.h */; };
-		FB963785293E65A500765F57 /* SBTAnyViewControllerPreviewing.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96376E293E65A400765F57 /* SBTAnyViewControllerPreviewing.h */; };
-		FB963786293E65A500765F57 /* UIScrollView+SBTUITestTunnel.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96376F293E65A400765F57 /* UIScrollView+SBTUITestTunnel.h */; };
-		FB963787293E65A500765F57 /* UIViewController+SBTUITestTunnel.h in Headers */ = {isa = PBXBuildFile; fileRef = FB963770293E65A400765F57 /* UIViewController+SBTUITestTunnel.h */; };
+		FB963784293E65A500765F57 /* SBTUITestTunnelServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96376D293E65A400765F57 /* SBTUITestTunnelServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB963785293E65A500765F57 /* SBTAnyViewControllerPreviewing.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96376E293E65A400765F57 /* SBTAnyViewControllerPreviewing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB963786293E65A500765F57 /* UIScrollView+SBTUITestTunnel.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96376F293E65A400765F57 /* UIScrollView+SBTUITestTunnel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB963787293E65A500765F57 /* UIViewController+SBTUITestTunnel.h in Headers */ = {isa = PBXBuildFile; fileRef = FB963770293E65A400765F57 /* UIViewController+SBTUITestTunnel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB963788293E65A500765F57 /* SBTAnyViewControllerPreviewing.m in Sources */ = {isa = PBXBuildFile; fileRef = FB963771293E65A400765F57 /* SBTAnyViewControllerPreviewing.m */; };
 		FB963789293E65A500765F57 /* NSURLSession+HTTPBodyFix.h in Headers */ = {isa = PBXBuildFile; fileRef = FB963773293E65A500765F57 /* NSURLSession+HTTPBodyFix.h */; };
 		FB96378A293E65A500765F57 /* SBTProxyURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FB963774293E65A500765F57 /* SBTProxyURLProtocol.h */; };
@@ -88,10 +88,10 @@
 		FB96379F293E65AC00765F57 /* XCTestCase+AppExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB963797293E65AC00765F57 /* XCTestCase+AppExtension.m */; };
 		FB9637A0293E65AC00765F57 /* SBTUITestTunnelClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FB963798293E65AC00765F57 /* SBTUITestTunnelClient.m */; };
 		FB9637A1293E65AC00765F57 /* SBTUITunneledApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FB963799293E65AC00765F57 /* SBTUITunneledApplication.m */; };
-		FB9637A2293E65AC00765F57 /* SBTUITunneledApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96379B293E65AC00765F57 /* SBTUITunneledApplication.h */; };
-		FB9637A3293E65AC00765F57 /* SBTUITestTunnelClientProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96379C293E65AC00765F57 /* SBTUITestTunnelClientProtocol.h */; };
-		FB9637A4293E65AC00765F57 /* SBTUITestTunnelClient.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96379D293E65AC00765F57 /* SBTUITestTunnelClient.h */; };
-		FB9637A5293E65AC00765F57 /* XCTestCase+AppExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96379E293E65AC00765F57 /* XCTestCase+AppExtension.h */; };
+		FB9637A2293E65AC00765F57 /* SBTUITunneledApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96379B293E65AC00765F57 /* SBTUITunneledApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB9637A3293E65AC00765F57 /* SBTUITestTunnelClientProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96379C293E65AC00765F57 /* SBTUITestTunnelClientProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB9637A4293E65AC00765F57 /* SBTUITestTunnelClient.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96379D293E65AC00765F57 /* SBTUITestTunnelClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB9637A5293E65AC00765F57 /* XCTestCase+AppExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96379E293E65AC00765F57 /* XCTestCase+AppExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB9637A7293E661200765F57 /* SBTUITestTunnelCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; };
 		FB9637A8293E661200765F57 /* SBTUITestTunnelCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9637BD293E679600765F57 /* NSInvocation+DTXRemoteSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9637B9293E679600765F57 /* NSInvocation+DTXRemoteSerialization.m */; };
@@ -109,11 +109,9 @@
 		FB9637E8293E6EFD00765F57 /* SBTRewrite+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9637E4293E6EFD00765F57 /* SBTRewrite+Swift.swift */; };
 		FB9637E9293E6EFD00765F57 /* SBTRequestMatch+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9637E5293E6EFD00765F57 /* SBTRequestMatch+Swift.swift */; };
 		FB9637EA293E6F1700765F57 /* SBTUITestTunnelCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; };
-		FB9637EB293E6F1700765F57 /* SBTUITestTunnelCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9637F3293E708100765F57 /* SBTUITestTunnelCommonSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637D4293E69E500765F57 /* SBTUITestTunnelCommonSwift.framework */; };
 		FB9637F4293E708100765F57 /* SBTUITestTunnelCommonSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637D4293E69E500765F57 /* SBTUITestTunnelCommonSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9637F7293E726700765F57 /* SBTUITestTunnelCommonNoARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; };
-		FB9637F8293E726700765F57 /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9637FC293E729500765F57 /* SBTUITestTunnelCommonSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637D4293E69E500765F57 /* SBTUITestTunnelCommonSwift.framework */; };
 		FB9637FD293E729500765F57 /* SBTUITestTunnelCommonSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637D4293E69E500765F57 /* SBTUITestTunnelCommonSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -186,28 +184,6 @@
 				FB9637CE293E693900765F57 /* GCDWebServers.xcframework in Embed Frameworks */,
 				FB9637C7293E687400765F57 /* SBTUITestTunnelCommon.framework in Embed Frameworks */,
 				FB9637F4293E708100765F57 /* SBTUITestTunnelCommonSwift.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB9637EE293E6F1700765F57 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FB9637EB293E6F1700765F57 /* SBTUITestTunnelCommon.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB9637FB293E726700765F57 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FB9637F8293E726700765F57 /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -628,14 +604,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB963785293E65A500765F57 /* SBTAnyViewControllerPreviewing.h in Headers */,
-				FB96378E293E65A500765F57 /* NSURLSessionConfiguration+SBTUITestTunnel.h in Headers */,
 				FB963787293E65A500765F57 /* UIViewController+SBTUITestTunnel.h in Headers */,
+				FB963784293E65A500765F57 /* SBTUITestTunnelServer.h in Headers */,
+				FB963786293E65A500765F57 /* UIScrollView+SBTUITestTunnel.h in Headers */,
+				FB96378E293E65A500765F57 /* NSURLSessionConfiguration+SBTUITestTunnel.h in Headers */,
 				FB963792293E65A500765F57 /* CLLocationManager+Swizzles.h in Headers */,
 				FB963795293E65A500765F57 /* UNUserNotificationCenter+Swizzles.h in Headers */,
 				FB963789293E65A500765F57 /* NSURLSession+HTTPBodyFix.h in Headers */,
 				FB963794293E65A500765F57 /* UITextField+DisableAutocomplete.h in Headers */,
-				FB963784293E65A500765F57 /* SBTUITestTunnelServer.h in Headers */,
-				FB963786293E65A500765F57 /* UIScrollView+SBTUITestTunnel.h in Headers */,
 				FB963793293E65A500765F57 /* UIView+Extensions.h in Headers */,
 				FB96378A293E65A500765F57 /* SBTProxyURLProtocol.h in Headers */,
 			);
@@ -751,7 +727,6 @@
 				FB9636A9293E653600765F57 /* Sources */,
 				FB9636AA293E653600765F57 /* Frameworks */,
 				FB9636AB293E653600765F57 /* Resources */,
-				FB9637FB293E726700765F57 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -789,7 +764,6 @@
 				FB9637D0293E69E500765F57 /* Sources */,
 				FB9637D1293E69E500765F57 /* Frameworks */,
 				FB9637D2293E69E500765F57 /* Resources */,
-				FB9637EE293E6F1700765F57 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

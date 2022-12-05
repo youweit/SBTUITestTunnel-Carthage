@@ -4,47 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/SBTUITestTunnelCommonNoARC.framework/Info.plist</key>
-		<data>
-		sesIW6fM+vVh754ntb5vwngpb7c=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommonNoARC.framework/SBTUITestTunnelCommonNoARC</key>
-		<data>
-		osencyUXV2Q1yJ6XgLNDWmftzsQ=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommonNoARC.framework/_CodeSignature/CodeResources</key>
-		<data>
-		TWcrQPRvZPef8QGtfXGzOShG6rc=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		sUXnEG28m+GoCyoq0ERyF0GHBv4=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>Frameworks/SBTUITestTunnelCommonNoARC.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZDSmc4xogQPmQYQKSKPZPnwcGyLNSyk+ztSX50QKtRg=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommonNoARC.framework/SBTUITestTunnelCommonNoARC</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JvfYLGZolt7nr52DLze9gnoSOHZUDJUsNsx9NFCg2HE=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommonNoARC.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qWBj7F6kwFHa/Rsb/PjxYJW4QF8zkGVsb1zFNYxrWWc=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>

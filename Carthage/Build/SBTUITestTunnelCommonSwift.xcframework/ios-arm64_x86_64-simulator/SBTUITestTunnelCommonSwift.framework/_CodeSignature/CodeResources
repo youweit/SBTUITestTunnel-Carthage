@@ -4,30 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/Info.plist</key>
-		<data>
-		sesIW6fM+vVh754ntb5vwngpb7c=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/SBTUITestTunnelCommonNoARC</key>
-		<data>
-		6vYIl1xG2GMN4SufIVc5EdiPemk=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/_CodeSignature/CodeResources</key>
-		<data>
-		TWcrQPRvZPef8QGtfXGzOShG6rc=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Info.plist</key>
-		<data>
-		sUXnEG28m+GoCyoq0ERyF0GHBv4=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/SBTUITestTunnelCommon</key>
-		<data>
-		7wSxgHkj/iaw/l6ghHRDwKcdrYo=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/_CodeSignature/CodeResources</key>
-		<data>
-		R9MX4lB0zPArcjj0NE9U9KsjB2U=
-		</data>
 		<key>Headers/SBTUITestTunnelCommonSwift-Swift.h</key>
 		<data>
 		yINdPuOGMXyyPeUd0yvM43qNv/U=
@@ -38,11 +14,11 @@
 		</data>
 		<key>Modules/SBTUITestTunnelCommonSwift.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		AIQ/vJxAzNFkjjqcc+xrRtZxsD8=
+		o35bP5budRQD9Liuskh6L5lb2CM=
 		</data>
 		<key>Modules/SBTUITestTunnelCommonSwift.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		ODVfSz+bJVSWG38oAQwjqACTU88=
+		h51nzM+rqsU5Ly+Afyvnki7xmw0=
 		</data>
 		<key>Modules/SBTUITestTunnelCommonSwift.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -75,48 +51,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZDSmc4xogQPmQYQKSKPZPnwcGyLNSyk+ztSX50QKtRg=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/SBTUITestTunnelCommonNoARC</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			e9WEBYIn61hThf4IkIeORGcAd582Py2IzU2VM3VKfRs=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qWBj7F6kwFHa/Rsb/PjxYJW4QF8zkGVsb1zFNYxrWWc=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wErHvDIs7ImmCQWAj8JsqL17iooUBxT/edgpzCMC3cw=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/SBTUITestTunnelCommon</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ckasnAdmOFn/FL/7GvfuL6TV/xnJaPkr9pNmRFAHyLc=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZMtS7IpooGW5aBu2RmUNVRPienqIm8gxNs/DY2JtCUI=
-			</data>
-		</dict>
 		<key>Headers/SBTUITestTunnelCommonSwift-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -128,14 +62,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7uCHZX6Cl/TT6g2M9Kox0feU9WExyaasIjyrK5bt/F4=
+			NH70hklF/UucpfICA/D8kkCC39agDAyY0J/HcL7rsAQ=
 			</data>
 		</dict>
 		<key>Modules/SBTUITestTunnelCommonSwift.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			98/NfK6CceFDP25xv2cVtyoWrTP6fbNU+PEGbmDMTqg=
+			JyF8GOv/rCsv29f+wkdoHo09W1tN0WfhK2dmJcyvlyE=
 			</data>
 		</dict>
 		<key>Modules/SBTUITestTunnelCommonSwift.swiftmodule/arm64-apple-ios-simulator.abi.json</key>

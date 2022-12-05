@@ -4,53 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/Info.plist</key>
-		<data>
-		sesIW6fM+vVh754ntb5vwngpb7c=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/SBTUITestTunnelCommonNoARC</key>
-		<data>
-		osencyUXV2Q1yJ6XgLNDWmftzsQ=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/_CodeSignature/CodeResources</key>
-		<data>
-		TWcrQPRvZPef8QGtfXGzOShG6rc=
-		</data>
 		<key>Frameworks/SBTUITestTunnelCommon.framework/Info.plist</key>
 		<data>
 		sUXnEG28m+GoCyoq0ERyF0GHBv4=
 		</data>
 		<key>Frameworks/SBTUITestTunnelCommon.framework/SBTUITestTunnelCommon</key>
 		<data>
-		f6HTuRsitvplOZQzbQy707beDFs=
+		N8ssjxXjfjCX/Pb2JV+IhF6e2r4=
 		</data>
 		<key>Frameworks/SBTUITestTunnelCommon.framework/_CodeSignature/CodeResources</key>
 		<data>
-		r75Hu2jDadjY9t5no9F5KDUSH8U=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/Info.plist</key>
-		<data>
-		sesIW6fM+vVh754ntb5vwngpb7c=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/SBTUITestTunnelCommonNoARC</key>
-		<data>
-		osencyUXV2Q1yJ6XgLNDWmftzsQ=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/_CodeSignature/CodeResources</key>
-		<data>
-		TWcrQPRvZPef8QGtfXGzOShG6rc=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Frameworks/SBTUITestTunnelCommon.framework/Info.plist</key>
-		<data>
-		sUXnEG28m+GoCyoq0ERyF0GHBv4=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Frameworks/SBTUITestTunnelCommon.framework/SBTUITestTunnelCommon</key>
-		<data>
-		f6HTuRsitvplOZQzbQy707beDFs=
-		</data>
-		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Frameworks/SBTUITestTunnelCommon.framework/_CodeSignature/CodeResources</key>
-		<data>
-		r75Hu2jDadjY9t5no9F5KDUSH8U=
+		tTmLTzbdbaHh39xqvkmy02AvbrM=
 		</data>
 		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Info.plist</key>
 		<data>
@@ -58,11 +22,11 @@
 		</data>
 		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/SBTUITestTunnelCommonSwift</key>
 		<data>
-		AWg9PCfRVHuYHloYK+xp4CgUGUQ=
+		hr9j4KyADexjbUQTFkRqfX35cLc=
 		</data>
 		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/_CodeSignature/CodeResources</key>
 		<data>
-		03mW035vWewJjH6bos+gSxHejIc=
+		bsZo7kVwNr1ROh417g6VMqlSBaY=
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
@@ -80,34 +44,33 @@
 		<data>
 		0LfrgPbajCVudylO6Dd0UWt8KCc=
 		</data>
+		<key>Headers/SBTUITestTunnelClient.h</key>
+		<data>
+		2HOPVkMyEI0ZGuqAKsawgl6omgs=
+		</data>
+		<key>Headers/SBTUITestTunnelClientProtocol.h</key>
+		<data>
+		/NoBXjT7Lfr78fSI4Za5M2Jo9IY=
+		</data>
+		<key>Headers/SBTUITunneledApplication.h</key>
+		<data>
+		/b8svaaIzUVnpHhub8/MFOljsu8=
+		</data>
+		<key>Headers/XCTestCase+AppExtension.h</key>
+		<data>
+		/qcTPRYjnDkaxurwF3ffXzJkyPo=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		kmlytBHxc4iY0FgUgOAN5dNaLyk=
 		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		C1kb9J7oO0RB1NY13ltA+CMzeRA=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZDSmc4xogQPmQYQKSKPZPnwcGyLNSyk+ztSX50QKtRg=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/SBTUITestTunnelCommonNoARC</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JvfYLGZolt7nr52DLze9gnoSOHZUDJUsNsx9NFCg2HE=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qWBj7F6kwFHa/Rsb/PjxYJW4QF8zkGVsb1zFNYxrWWc=
-			</data>
-		</dict>
 		<key>Frameworks/SBTUITestTunnelCommon.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -119,56 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mgr61r0seLYbyat+A0GakW+1BiBwK1kH36a/gshSg6w=
+			627NduMMmxoXRHMLzkVcivTaGBbs4PkULmixba+gZro=
 			</data>
 		</dict>
 		<key>Frameworks/SBTUITestTunnelCommon.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zcx2pW1w2w7Tm7+4uWobWG8nYhBJtdWo1NjFpsGgCaQ=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZDSmc4xogQPmQYQKSKPZPnwcGyLNSyk+ztSX50QKtRg=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/SBTUITestTunnelCommonNoARC</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JvfYLGZolt7nr52DLze9gnoSOHZUDJUsNsx9NFCg2HE=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Frameworks/SBTUITestTunnelCommon.framework/Frameworks/SBTUITestTunnelCommonNoARC.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qWBj7F6kwFHa/Rsb/PjxYJW4QF8zkGVsb1zFNYxrWWc=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Frameworks/SBTUITestTunnelCommon.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wErHvDIs7ImmCQWAj8JsqL17iooUBxT/edgpzCMC3cw=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Frameworks/SBTUITestTunnelCommon.framework/SBTUITestTunnelCommon</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Mgr61r0seLYbyat+A0GakW+1BiBwK1kH36a/gshSg6w=
-			</data>
-		</dict>
-		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Frameworks/SBTUITestTunnelCommon.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zcx2pW1w2w7Tm7+4uWobWG8nYhBJtdWo1NjFpsGgCaQ=
+			m1M22CIJ1271iXtiZYK57X6Th83TX+X6/LNWa0Ihggo=
 			</data>
 		</dict>
 		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/Info.plist</key>
@@ -182,14 +103,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x76ZMRL0MR8Tk4zjkYujioJ9IDTHd92Ziue8aiIuPhc=
+			AAeUzr17BvJ+ZK0CkeXr6Zh3ScAK6dzQft9ZkeMsp98=
 			</data>
 		</dict>
 		<key>Frameworks/SBTUITestTunnelCommonSwift.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gA81NYwpbjXMPN2sxYkjkNqcdB4ph3o2+yiieYf7SKQ=
+			GGfhnSBIdVGieHPvWXsG3GPdJ1c1o4NJhVOt61MvJbM=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
@@ -218,6 +139,41 @@
 			<key>hash2</key>
 			<data>
 			YgmhmipM6uXBm+xmnYgaJ8QXVWJCqvFM2cp7PbS4Hgc=
+			</data>
+		</dict>
+		<key>Headers/SBTUITestTunnelClient.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eXNLe+jwnogIeVY6eLDtHnX3x8OQyJ4sbG9CkjR/wVU=
+			</data>
+		</dict>
+		<key>Headers/SBTUITestTunnelClientProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			31+XTZhNxPcnrDamncBXB9Lmvrw5GYYlT6uppQ1ZYm8=
+			</data>
+		</dict>
+		<key>Headers/SBTUITunneledApplication.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FCcZyv+hy8b3vXL7UReuYgFSyDvHvYfuxcDrBvsvm5k=
+			</data>
+		</dict>
+		<key>Headers/XCTestCase+AppExtension.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5LcsV6WCDCphoVuc71rVEfpyjchnRalHO6iwnx7XbQs=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+5TBxhQNN3/U/pFQlzdmK6dpLwP9zkRx7dAAp9TXYlI=
 			</data>
 		</dict>
 	</dict>
