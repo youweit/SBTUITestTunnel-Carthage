@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB193E5A293EE73300531831 /* SBTUITestTunnelCommonNoARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; };
+		FB193E5B293EE73300531831 /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9636FA293E658900765F57 /* NSURLRequest+HTTPBodyFix.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9636B4293E658600765F57 /* NSURLRequest+HTTPBodyFix.m */; };
 		FB9636FB293E658900765F57 /* SBTRegularExpressionMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9636B5293E658600765F57 /* SBTRegularExpressionMatcher.m */; };
 		FB9636FC293E658900765F57 /* NSData+gzip.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9636B7293E658700765F57 /* NSData+gzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -103,7 +105,6 @@
 		FB9637CD293E693900765F57 /* GCDWebServers.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637CB293E690600765F57 /* GCDWebServers.xcframework */; };
 		FB9637CE293E693900765F57 /* GCDWebServers.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637CB293E690600765F57 /* GCDWebServers.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9637E0293E6E8F00765F57 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637DF293E6E8F00765F57 /* XCTest.framework */; platformFilter = ios; };
-		FB9637E1293E6E8F00765F57 /* XCTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637DF293E6E8F00765F57 /* XCTest.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9637E6293E6EFD00765F57 /* SBTStubFailureResponse+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9637E2293E6EFD00765F57 /* SBTStubFailureResponse+Swift.swift */; };
 		FB9637E7293E6EFD00765F57 /* SBTStubResponse+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9637E3293E6EFD00765F57 /* SBTStubResponse+Swift.swift */; };
 		FB9637E8293E6EFD00765F57 /* SBTRewrite+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9637E4293E6EFD00765F57 /* SBTRewrite+Swift.swift */; };
@@ -117,6 +118,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FB193E5C293EE73300531831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB96367D293E650600765F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9637B0293E66C600765F57;
+			remoteInfo = SBTUITestTunnelCommonNoARC;
+		};
 		FB9637A9293E661200765F57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FB96367D293E650600765F57 /* Project object */;
@@ -170,7 +178,6 @@
 			files = (
 				FB9637A8293E661200765F57 /* SBTUITestTunnelCommon.framework in Embed Frameworks */,
 				FB9637FD293E729500765F57 /* SBTUITestTunnelCommonSwift.framework in Embed Frameworks */,
-				FB9637E1293E6E8F00765F57 /* XCTest.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +189,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				FB9637CE293E693900765F57 /* GCDWebServers.xcframework in Embed Frameworks */,
+				FB193E5B293EE73300531831 /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */,
 				FB9637C7293E687400765F57 /* SBTUITestTunnelCommon.framework in Embed Frameworks */,
 				FB9637F4293E708100765F57 /* SBTUITestTunnelCommonSwift.framework in Embed Frameworks */,
 			);
@@ -310,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB9637CD293E693900765F57 /* GCDWebServers.xcframework in Frameworks */,
+				FB193E5A293EE73300531831 /* SBTUITestTunnelCommonNoARC.framework in Frameworks */,
 				FB9637C6293E687400765F57 /* SBTUITestTunnelCommon.framework in Frameworks */,
 				FB9637F3293E708100765F57 /* SBTUITestTunnelCommonSwift.framework in Frameworks */,
 			);
@@ -713,6 +722,7 @@
 			dependencies = (
 				FB9637C9293E687400765F57 /* PBXTargetDependency */,
 				FB9637F6293E708100765F57 /* PBXTargetDependency */,
+				FB193E5D293EE73300531831 /* PBXTargetDependency */,
 			);
 			name = SBTUITestTunnelServer;
 			productName = SBTUITestTunnelServer;
@@ -943,6 +953,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FB193E5D293EE73300531831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9637B0293E66C600765F57 /* SBTUITestTunnelCommonNoARC */;
+			targetProxy = FB193E5C293EE73300531831 /* PBXContainerItemProxy */;
+		};
 		FB9637AA293E661200765F57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FB9636AC293E653600765F57 /* SBTUITestTunnelCommon */;
@@ -980,6 +995,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -1043,6 +1059,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
