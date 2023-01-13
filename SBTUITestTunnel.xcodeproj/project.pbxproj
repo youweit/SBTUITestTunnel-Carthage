@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		FB193E5A293EE73300531831 /* SBTUITestTunnelCommonNoARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; };
-		FB193E5B293EE73300531831 /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB4AFE5229717CC600E3B16D /* SBTUITestTunnelCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; };
-		FB4AFE5329717CC600E3B16D /* SBTUITestTunnelCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB4AFE5529718B0600E3B16D /* SBTUITestTunnelCommonNoARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; };
-		FB4AFE5629718B0600E3B16D /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB5284072971985D007B0CEE /* SBTUITestTunnelCommonNoARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; };
-		FB5284082971985D007B0CEE /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB63BD7629719CC700608824 /* GCDWebServers.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637CB293E690600765F57 /* GCDWebServers.xcframework */; };
+		FB63BD7729719CC700608824 /* GCDWebServers.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637CB293E690600765F57 /* GCDWebServers.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9636FA293E658900765F57 /* NSURLRequest+HTTPBodyFix.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9636B4293E658600765F57 /* NSURLRequest+HTTPBodyFix.m */; };
 		FB9636FB293E658900765F57 /* SBTRegularExpressionMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9636B5293E658600765F57 /* SBTRegularExpressionMatcher.m */; };
 		FB9636FC293E658900765F57 /* NSData+gzip.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9636B7293E658700765F57 /* NSData+gzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -101,24 +99,18 @@
 		FB9637A4293E65AC00765F57 /* SBTUITestTunnelClient.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96379D293E65AC00765F57 /* SBTUITestTunnelClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB9637A5293E65AC00765F57 /* XCTestCase+AppExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96379E293E65AC00765F57 /* XCTestCase+AppExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB9637A7293E661200765F57 /* SBTUITestTunnelCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; };
-		FB9637A8293E661200765F57 /* SBTUITestTunnelCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9637BD293E679600765F57 /* NSInvocation+DTXRemoteSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9637B9293E679600765F57 /* NSInvocation+DTXRemoteSerialization.m */; };
 		FB9637BE293E679600765F57 /* _DTXIPCRemoteBlockRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9637BA293E679600765F57 /* _DTXIPCRemoteBlockRegistry.m */; };
 		FB9637BF293E679600765F57 /* NSInvocation+DTXRemoteSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9637BB293E679600765F57 /* NSInvocation+DTXRemoteSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB9637C0293E679600765F57 /* _DTXIPCRemoteBlockRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9637BC293E679600765F57 /* _DTXIPCRemoteBlockRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB9637C6293E687400765F57 /* SBTUITestTunnelCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; };
-		FB9637C7293E687400765F57 /* SBTUITestTunnelCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FB9637CD293E693900765F57 /* GCDWebServers.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637CB293E690600765F57 /* GCDWebServers.xcframework */; };
-		FB9637CE293E693900765F57 /* GCDWebServers.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637CB293E690600765F57 /* GCDWebServers.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9637E0293E6E8F00765F57 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637DF293E6E8F00765F57 /* XCTest.framework */; platformFilter = ios; };
 		FB9637E6293E6EFD00765F57 /* SBTStubFailureResponse+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9637E2293E6EFD00765F57 /* SBTStubFailureResponse+Swift.swift */; };
 		FB9637E7293E6EFD00765F57 /* SBTStubResponse+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9637E3293E6EFD00765F57 /* SBTStubResponse+Swift.swift */; };
 		FB9637E8293E6EFD00765F57 /* SBTRewrite+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9637E4293E6EFD00765F57 /* SBTRewrite+Swift.swift */; };
 		FB9637E9293E6EFD00765F57 /* SBTRequestMatch+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9637E5293E6EFD00765F57 /* SBTRequestMatch+Swift.swift */; };
 		FB9637F3293E708100765F57 /* SBTUITestTunnelCommonSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637D4293E69E500765F57 /* SBTUITestTunnelCommonSwift.framework */; };
-		FB9637F4293E708100765F57 /* SBTUITestTunnelCommonSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637D4293E69E500765F57 /* SBTUITestTunnelCommonSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9637FC293E729500765F57 /* SBTUITestTunnelCommonSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637D4293E69E500765F57 /* SBTUITestTunnelCommonSwift.framework */; };
-		FB9637FD293E729500765F57 /* SBTUITestTunnelCommonSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637D4293E69E500765F57 /* SBTUITestTunnelCommonSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,51 +173,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FB4AFE5429717CC600E3B16D /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FB4AFE5329717CC600E3B16D /* SBTUITestTunnelCommon.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB4AFE5729718B0600E3B16D /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FB4AFE5629718B0600E3B16D /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB9637AB293E661200765F57 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FB9637A8293E661200765F57 /* SBTUITestTunnelCommon.framework in Embed Frameworks */,
-				FB5284082971985D007B0CEE /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */,
-				FB9637FD293E729500765F57 /* SBTUITestTunnelCommonSwift.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FB9637CA293E687400765F57 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FB9637CE293E693900765F57 /* GCDWebServers.xcframework in Embed Frameworks */,
-				FB193E5B293EE73300531831 /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */,
-				FB9637C7293E687400765F57 /* SBTUITestTunnelCommon.framework in Embed Frameworks */,
-				FB9637F4293E708100765F57 /* SBTUITestTunnelCommonSwift.framework in Embed Frameworks */,
+				FB63BD7729719CC700608824 /* GCDWebServers.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,9 +306,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9637CD293E693900765F57 /* GCDWebServers.xcframework in Frameworks */,
 				FB193E5A293EE73300531831 /* SBTUITestTunnelCommonNoARC.framework in Frameworks */,
 				FB9637C6293E687400765F57 /* SBTUITestTunnelCommon.framework in Frameworks */,
+				FB63BD7629719CC700608824 /* GCDWebServers.xcframework in Frameworks */,
 				FB9637F3293E708100765F57 /* SBTUITestTunnelCommonSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -729,7 +683,6 @@
 				FB963691293E651E00765F57 /* Sources */,
 				FB963692293E651E00765F57 /* Frameworks */,
 				FB963693293E651E00765F57 /* Resources */,
-				FB9637AB293E661200765F57 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -773,7 +726,6 @@
 				FB9636A9293E653600765F57 /* Sources */,
 				FB9636AA293E653600765F57 /* Frameworks */,
 				FB9636AB293E653600765F57 /* Resources */,
-				FB4AFE5729718B0600E3B16D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -811,7 +763,6 @@
 				FB9637D0293E69E500765F57 /* Sources */,
 				FB9637D1293E69E500765F57 /* Frameworks */,
 				FB9637D2293E69E500765F57 /* Resources */,
-				FB4AFE5429717CC600E3B16D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

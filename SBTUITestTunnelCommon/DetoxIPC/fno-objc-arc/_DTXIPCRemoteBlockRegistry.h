@@ -6,13 +6,13 @@
 //  Copyright © 2019 LeoNatan. All rights reserved.
 //
 
-#if DEBUG
-    #ifndef ENABLE_UITUNNEL
-        #define ENABLE_UITUNNEL 1
-    #endif
-#endif
-
-#if ENABLE_UITUNNEL
+//#if DEBUG
+//    #ifndef ENABLE_UITUNNEL
+//        #define ENABLE_UITUNNEL 1
+//    #endif
+//#endif
+//
+//#if ENABLE_UITUNNEL
 
 #import <Foundation/Foundation.h>
 @class _DTXIPCDistantObject;
@@ -30,4 +30,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 NS_ASSUME_NONNULL_END
 
-#endif
+//#endif
