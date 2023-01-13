@@ -13,6 +13,8 @@
 		FB4AFE5329717CC600E3B16D /* SBTUITestTunnelCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB4AFE5529718B0600E3B16D /* SBTUITestTunnelCommonNoARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; };
 		FB4AFE5629718B0600E3B16D /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB5284072971985D007B0CEE /* SBTUITestTunnelCommonNoARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; };
+		FB5284082971985D007B0CEE /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9636FA293E658900765F57 /* NSURLRequest+HTTPBodyFix.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9636B4293E658600765F57 /* NSURLRequest+HTTPBodyFix.m */; };
 		FB9636FB293E658900765F57 /* SBTRegularExpressionMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9636B5293E658600765F57 /* SBTRegularExpressionMatcher.m */; };
 		FB9636FC293E658900765F57 /* NSData+gzip.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9636B7293E658700765F57 /* NSData+gzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -127,6 +129,13 @@
 			remoteGlobalIDString = FB9637B0293E66C600765F57;
 			remoteInfo = SBTUITestTunnelCommonNoARC;
 		};
+		FB5284092971985D007B0CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB96367D293E650600765F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9637B0293E66C600765F57;
+			remoteInfo = SBTUITestTunnelCommonNoARC;
+		};
 		FB9637A9293E661200765F57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FB96367D293E650600765F57 /* Project object */;
@@ -201,6 +210,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				FB9637A8293E661200765F57 /* SBTUITestTunnelCommon.framework in Embed Frameworks */,
+				FB5284082971985D007B0CEE /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */,
 				FB9637FD293E729500765F57 /* SBTUITestTunnelCommonSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -332,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB9637A7293E661200765F57 /* SBTUITestTunnelCommon.framework in Frameworks */,
+				FB5284072971985D007B0CEE /* SBTUITestTunnelCommonNoARC.framework in Frameworks */,
 				FB9637FC293E729500765F57 /* SBTUITestTunnelCommonSwift.framework in Frameworks */,
 				FB9637E0293E6E8F00765F57 /* XCTest.framework in Frameworks */,
 			);
@@ -725,6 +736,7 @@
 			dependencies = (
 				FB9637AA293E661200765F57 /* PBXTargetDependency */,
 				FB9637FF293E729500765F57 /* PBXTargetDependency */,
+				FB52840A2971985D007B0CEE /* PBXTargetDependency */,
 			);
 			name = SBTUITestTunnelClient;
 			productName = SBTUITestTunnelClient;
@@ -984,6 +996,11 @@
 			target = FB9637B0293E66C600765F57 /* SBTUITestTunnelCommonNoARC */;
 			targetProxy = FB193E5C293EE73300531831 /* PBXContainerItemProxy */;
 		};
+		FB52840A2971985D007B0CEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9637B0293E66C600765F57 /* SBTUITestTunnelCommonNoARC */;
+			targetProxy = FB5284092971985D007B0CEE /* PBXContainerItemProxy */;
+		};
 		FB9637AA293E661200765F57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FB9636AC293E653600765F57 /* SBTUITestTunnelCommon */;
@@ -1076,6 +1093,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1135,7 +1153,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
