@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		FB193E5A293EE73300531831 /* SBTUITestTunnelCommonNoARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; };
 		FB193E5B293EE73300531831 /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB4AFE5229717CC600E3B16D /* SBTUITestTunnelCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; };
+		FB4AFE5329717CC600E3B16D /* SBTUITestTunnelCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB4AFE5529718B0600E3B16D /* SBTUITestTunnelCommonNoARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; };
+		FB4AFE5629718B0600E3B16D /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB9636FA293E658900765F57 /* NSURLRequest+HTTPBodyFix.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9636B4293E658600765F57 /* NSURLRequest+HTTPBodyFix.m */; };
 		FB9636FB293E658900765F57 /* SBTRegularExpressionMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9636B5293E658600765F57 /* SBTRegularExpressionMatcher.m */; };
 		FB9636FC293E658900765F57 /* NSData+gzip.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9636B7293E658700765F57 /* NSData+gzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,10 +113,8 @@
 		FB9637E7293E6EFD00765F57 /* SBTStubResponse+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9637E3293E6EFD00765F57 /* SBTStubResponse+Swift.swift */; };
 		FB9637E8293E6EFD00765F57 /* SBTRewrite+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9637E4293E6EFD00765F57 /* SBTRewrite+Swift.swift */; };
 		FB9637E9293E6EFD00765F57 /* SBTRequestMatch+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9637E5293E6EFD00765F57 /* SBTRequestMatch+Swift.swift */; };
-		FB9637EA293E6F1700765F57 /* SBTUITestTunnelCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9636AD293E653600765F57 /* SBTUITestTunnelCommon.framework */; };
 		FB9637F3293E708100765F57 /* SBTUITestTunnelCommonSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637D4293E69E500765F57 /* SBTUITestTunnelCommonSwift.framework */; };
 		FB9637F4293E708100765F57 /* SBTUITestTunnelCommonSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637D4293E69E500765F57 /* SBTUITestTunnelCommonSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FB9637F7293E726700765F57 /* SBTUITestTunnelCommonNoARC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637B1293E66C600765F57 /* SBTUITestTunnelCommonNoARC.framework */; };
 		FB9637FC293E729500765F57 /* SBTUITestTunnelCommonSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637D4293E69E500765F57 /* SBTUITestTunnelCommonSwift.framework */; };
 		FB9637FD293E729500765F57 /* SBTUITestTunnelCommonSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB9637D4293E69E500765F57 /* SBTUITestTunnelCommonSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -170,6 +172,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		FB4AFE5429717CC600E3B16D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB4AFE5329717CC600E3B16D /* SBTUITestTunnelCommon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4AFE5729718B0600E3B16D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB4AFE5629718B0600E3B16D /* SBTUITestTunnelCommonNoARC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FB9637AB293E661200765F57 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,7 +352,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9637F7293E726700765F57 /* SBTUITestTunnelCommonNoARC.framework in Frameworks */,
+				FB4AFE5529718B0600E3B16D /* SBTUITestTunnelCommonNoARC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +367,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9637EA293E6F1700765F57 /* SBTUITestTunnelCommon.framework in Frameworks */,
+				FB4AFE5229717CC600E3B16D /* SBTUITestTunnelCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,6 +761,7 @@
 				FB9636A9293E653600765F57 /* Sources */,
 				FB9636AA293E653600765F57 /* Frameworks */,
 				FB9636AB293E653600765F57 /* Resources */,
+				FB4AFE5729718B0600E3B16D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -774,6 +799,7 @@
 				FB9637D0293E69E500765F57 /* Sources */,
 				FB9637D1293E69E500765F57 /* Frameworks */,
 				FB9637D2293E69E500765F57 /* Resources */,
+				FB4AFE5429717CC600E3B16D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
